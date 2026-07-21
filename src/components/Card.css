@@ -1,0 +1,70 @@
+.Card {
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(153, 153, 153, 0.497);
+    border-radius: 20px;
+    padding: 20px 16px;
+    margin-bottom: 25px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.name {
+    color: white;
+    font-size: 24px;
+    margin: 0 0 12px 0;
+    text-align: center;
+}
+
+.speed {
+    color:white;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.color {
+    color:white;  
+    text-align: justify;
+    text-justify: inter-word;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.more-link {
+    display: inline-flex;
+    align-items: center;
+}
+
+.moreButton {
+    width: 30px;
+    height: auto;
+    display: block;
+}
+
+.card-body {
+    margin-bottom: 12px;
+}
+
+.card-actions {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    align-items: center;
+}
+
+.edit-btn {
+    background: #1f2937;
+    color: white;
+    border: 1px solid rgba(255,255,255,0.06);
+    padding: 8px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.edit-btn:hover {
+    background: #374151;
+}
+.moreButton:hover {
+    cursor: pointer;
+}
